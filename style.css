@@ -1,0 +1,150 @@
+:root {
+	--color-primary: #202124;
+}
+
+*,
+html,
+#root {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow: none;
+}
+
+input,
+body {
+	font-size: 14px;
+	line-height: 27px;
+	font-family: arial, sans-serif;
+	color: var(--color-primary);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.container .modile_first {
+	margin-top: 50px;
+	max-width: 375px;
+
+	display: flex;
+	flex-direction: column;
+
+	margin: auto 25px;
+}
+
+.container .modile_first .animated_title {
+	width: 100%;
+}
+
+.container .modile_first .animated_title img {
+	width: 100%;
+}
+
+.container .modile_first .bars_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100%;
+}
+
+.container .modile_first .bars_menu .search {
+	position: relative;
+	width: 70%;
+}
+
+.container .modile_first .bars_menu .search input {
+	width: 100%;
+	height: 45px;
+	border: none;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 100px;
+	color: rgba(0,0,0,.6);
+	padding-left: 45px;
+
+	outline: none;
+}
+
+.container .modile_first .bars_menu .search img {
+	width: 25px;
+	position: absolute;
+}
+
+
+.container .modile_first .bars_menu .search img:nth-child(1) {
+	left: 13px;
+	top: 10px;
+}
+
+.container .modile_first .bars_menu .search img:nth-child(2) {
+	right: 13px;
+	top: 10px;
+}
+
+.container .modile_first .bars_menu img:nth-child(1) {
+	color: orange;
+}
+
+.container .modile_first .bars_menu img:nth-child(3) {
+	width: 35px;
+	height: 35px;
+	border-radius: 100px;
+
+	object-fit: cover;
+}
+
+.container .modile_first .noticies {
+	margin-top: 20px;
+}
+
+.container .modile_first .noticies .card {
+	width: 100%;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	padding-bottom: 25px;
+	margin-top: 20px;
+}
+
+.container .modile_first .noticies .card .image img {
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.container .modile_first .noticies .card .title h2 {
+	font-weight: 400;
+}
+
+.container .modile_first .noticies .card .header {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .modile_first .noticies .card .header .author {
+	display: flex;
+	align-items: flex-start;
+}
+
+.container .modile_first .noticies .card .header .author img {
+	width: 23px;
+	height: 23px;
+	object-fit: cover;
+
+	border-radius: 2px;
+	margin-right: 10px;
+}
+
+.container .modile_first .noticies .card .header .icons {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .modile_first .noticies .card .header .icons img {
+	width: 25px;
+}
+
