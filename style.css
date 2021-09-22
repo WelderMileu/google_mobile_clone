@@ -84,10 +84,6 @@ body {
 	top: 10px;
 }
 
-.container .modile_first .bars_menu img:nth-child(1) {
-	color: orange;
-}
-
 .container .modile_first .bars_menu img:nth-child(3) {
 	width: 35px;
 	height: 35px;
